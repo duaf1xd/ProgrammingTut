@@ -5,7 +5,7 @@ public class JavaApplication13 {
         Scanner cyka= new Scanner(System.in);
         System.out.println("Enter a number");
         double input= cyka.nextDouble();
-        double x=1, prevx, res;
+        double x=1, prevx;
         do
         {
             prevx= x;
