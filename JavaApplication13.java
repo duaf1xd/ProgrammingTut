@@ -10,7 +10,6 @@ public class JavaApplication13 {
         {
             prevx= x;
             x= (x+ (input/x))/2;
-            res= x-prevx;
         }
         while (x-prevx!=0);
         System.out.println("Square root of "+ input + " is " + x);
